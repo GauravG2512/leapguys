@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://models/platform-large.glb" id="1_large"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_large"]
+size = Vector3(5, 0.5, 5)
+
+[node name="platform-large" type="Node3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_large")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+position = Vector3(0, 0.25, 0)
+shape = SubResource("BoxShape3D_large")
