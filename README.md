@@ -1,22 +1,23 @@
-# 🎮 Leap Guys
+
+# Leap Guys
 
 <p align="center">
   <img src="splash-screen.png" alt="Leap Guys Banner" width="720"/>
 </p>
 
 <p align="center">
-  <b>A vibrant, fast-paced 3D platformer built in Godot Engine featuring multi-jump mechanics, moving platforms, collapsing hazards, and thrilling level design.</b>
+  <b>A 3D platformer developed using Godot Engine, featuring multi-jump mechanics, moving platforms, collapsing hazards, and progressively challenging levels.</b>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Engine-Godot%204-478CBF?style=for-the-badge&logo=godotengine&logoColor=white" alt="Godot 4"/>
-  <img src="https://img.shields.io/badge/Genre-3D%20Platformer-FF6F00?style=for-the-badge" alt="Genre 3D Platformer"/>
-  <img src="https://img.shields.io/badge/Status-Playable-success?style=for-the-badge" alt="Playable"/>
+  <img src="https://img.shields.io/badge/Genre-3D%20Platformer-FF6F00?style=for-the-badge" alt="Genre: 3D Platformer"/>
+  <img src="https://img.shields.io/badge/Status-Playable-success?style=for-the-badge" alt="Status: Playable"/>
 </p>
 
 ---
 
-## 📸 Gameplay Screenshot
+## Gameplay Screenshot
 
 <p align="center">
   <img src="screenshots/gameplay.png" alt="Leap Guys Gameplay Screenshot" width="850"/>
@@ -24,81 +25,112 @@
 
 ---
 
-## 🌟 About the Game
+## About the Game
 
-**Leap Guys** is a 3D precision platformer with smooth movement, airborne multi-jumping, and obstacle courses designed to test your timing and agility. Guide your character across perilous floating islands, avoid falling into the void, collect shiny coins, and reach the finish flag across 5 unique levels!
+**Leap Guys** is a 3D precision platformer focused on responsive movement, multi-jump mechanics, and obstacle-based level design. Players navigate floating platforms, avoid environmental hazards, collect coins, and reach the finish point across five progressively challenging levels.
+
+## Levels Overview
+
+### Level 1 — Garden Run
+**Difficulty:** Beginner
+
+Introduces basic movement and jumping mechanics through grass platforms and a straightforward obstacle course.
+
+### Level 2 — Double and Triple Leap
+**Focus:** Multi-jump mechanics
+
+Challenges players to cross wide gaps using carefully timed double and triple jumps.
+
+### Level 3 — Drifting Switchbacks
+**Focus:** Moving platforms
+
+Features an S-shaped mountain route with platforms moving along the X, Y, and Z axes.
+
+### Level 4 — Falling Trail
+**Focus:** Collapsing platforms
+
+Requires players to move quickly across unstable platforms that shake and collapse after contact.
+
+### Level 5 — Sky Ruins
+**Focus:** Advanced platforming
+
+Features a 21-platform obstacle course combining triple jumps, moving platforms, and collapsing tiles.
 
 ---
 
-## 🕹️ Levels Overview
-
-1. **Level 1 — Garden Run**
-   - *Beginner Course*: A gentle introduction to core mechanics with standard single jumps across lush, winding grass platforms.
-2. **Level 2 — Double / Triple Leap**
-   - *Aerial Agility*: Introduces airborne multi-jumps. Clear wide canyon gaps requiring double and triple jump timing.
-3. **Level 3 — Drifting Switchbacks**
-   - *Moving Hazards*: Ascend an S-shaped mountain path with dynamic platforms oscillating across the X, Y, and Z axes.
-4. **Level 4 — Falling Trail**
-   - *Collapsing Footing*: High-tension courses where platforms shake and drop beneath your feet—keep moving or fall!
-5. **Level 5 — Sky Ruins**
-   - *The Ultimate Gauntlet*: An expansive 21-platform endurance test combining triple jumps, drifting platforms, and falling tiles.
-
----
-
-## 🎮 Controls
+## Controls
 
 | Action | Keyboard / Mouse | Gamepad |
 | :--- | :--- | :--- |
-| **Move** | <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> / Arrow Keys | Left Analog Stick |
-| **Jump / Multi-Jump** | <kbd>Space</kbd> | Bottom Button (A / Cross) |
-| **Rotate Camera** | Hold <kbd>Right Click</kbd> & Drag | Right Analog Stick |
-| **Zoom Camera** | <kbd>Mouse Wheel</kbd> | - |
-| **Restart Level** | <kbd>R</kbd> | Select / Back |
-| **Release Mouse** | <kbd>Esc</kbd> | - |
+| Move | W, A, S, D / Arrow Keys | Left Analog Stick |
+| Jump / Multi-Jump | Space | A / Cross |
+| Rotate Camera | Hold Right Mouse Button and Drag | Right Analog Stick |
+| Zoom Camera | Mouse Wheel | Not Available |
+| Restart Level | R | Select / Back |
+| Release Mouse | Esc | Not Available |
 
 ---
 
-## ✨ Features
+## Key Features
 
-- **Fluid Movement & Multi-Jump**: Responsive character movement with support for double and triple jump sequences.
-- **Dynamic Platform Types**: Stationary, oscillating/moving, and crumbling falling platforms.
-- **Checkpoint & Respawn System**: Smart checkpoints ensure smooth gameplay without losing your hard-earned progress.
-- **Orbital 3D Camera**: Free orbital rotation and zoom controls for spatial awareness.
-- **Polished Audio & Feedback**: Satisfying sound effects for jumping, landing, collecting coins, and falling platforms.
-- **Clean HUD & UI**: Level counter, coin tracker, splash screen, and victory celebration screens.
+- **Responsive Movement and Multi-Jump:** Supports double and triple jumps for navigating complex obstacles.
+- **Dynamic Platform Mechanics:** Includes stationary, moving, and collapsing platforms.
+- **Checkpoint and Respawn System:** Allows players to resume from designated checkpoints after falling.
+- **3D Orbital Camera:** Provides camera rotation and zoom controls for improved spatial awareness.
+- **Audio Feedback:** Sound effects accompany jumping, landing, coin collection, and platform collapse.
+- **User Interface:** Includes a splash screen, level counter, coin tracker, and victory screen.
 
 ---
 
-## 🚀 How to Run & Play
+## Installation and Execution
 
 ### Requirements
-- [Godot Engine 4.x](https://godotengine.org/download) (Godot 4.2+ recommended)
 
-### Running the Project
-1. Clone or download this repository:
+- Godot Engine 4.x
+- Godot 4.2 or later recommended
+
+### Setup Instructions
+
+1. Clone or download the repository:
+
    ```bash
    git clone https://github.com/GauravG2512/leapguys.git
    ```
-2. Open the **Godot Project Manager**.
-3. Click **Import** and navigate to this folder.
-4. Select `project.godot` and click **Import & Edit**.
-5. Press <kbd>F5</kbd> (or click the **Play** button in the top right corner) to launch the game!
+
+2. Open **Godot Project Manager**.
+3. Select **Import** and navigate to the downloaded repository folder.
+4. Select the `project.godot` file.
+5. Click **Import & Edit**.
+6. Press **F5** or select the Play button to launch the project.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
-```
+```text
 leapguys/
-├── fonts/            # Custom typography & fonts
+├── fonts/            # Typography and font resources
 ├── meshes/           # Custom mesh definitions
-├── models/           # 3D models (characters, platforms, coins, clouds)
-├── objects/          # Reusable scene objects (player, coins, platforms)
-├── scenes/           # Core environments and level scenes
-├── screenshots/      # Gameplay screenshots & promotional images
-├── scripts/          # GDScript game logic (character controller, camera, HUD)
-├── sounds/           # Audio effects (jump, land, break, coins)
-├── sprites/          # 2D sprites, shadows, skybox textures
+├── models/           # 3D characters, platforms, coins, and clouds
+├── objects/          # Reusable game objects and scenes
+├── scenes/           # Environments and level scenes
+├── screenshots/      # Gameplay screenshots and promotional images
+├── scripts/          # GDScript gameplay logic
+├── sounds/           # Sound effects and audio resources
+├── sprites/          # Sprites, shadows, and skybox textures
 ├── project.godot     # Main Godot project configuration
-└── README.md         # Documentation
+└── README.md         # Project documentation
 ```
+
+---
+
+## Technology Stack
+
+- **Game Engine:** Godot Engine 4.x
+- **Programming Language:** GDScript
+- **Game Type:** 3D Platformer
+- **Core Systems:** Character movement, multi-jump mechanics, dynamic platforms, camera controls, checkpoints, and user interface.
+
+## Project Objective
+
+The objective of Leap Guys is to develop an engaging 3D platforming experience that combines precise movement, progressively challenging obstacle courses, and interactive environmental mechanics. The project demonstrates the practical application of game development concepts, 3D scene management, physics-based interactions, and gameplay scripting in Godot Engine.
